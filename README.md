@@ -1,11 +1,11 @@
 # AtilimTimetable
 Combine lecture hours and classes on EduPage into a single document using NodeJS and Selenium for Atilim University.
 
-##What's needed?
+## What's needed?
 - NodeJS +v18.15.0
 - Firefox
 
-##Usage
+## Usage
 
 - Download the files and extract them to a folder.
 - Open the folder in console.
