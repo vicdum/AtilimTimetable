@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "selenium-webdriver": "^4.11.1"
+  },
+  "name": "atilimtimetable",
+  "version": "1.0.0",
+  "description": "Combine lecture hours and classes on EduPage into a single document using NodeJS and Selenium for Atılım University.",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vicdum/AtilimTimetable.git"
+  },
+  "keywords": [
+    "atilim",
+    "edupage",
+    "timetable",
+    "nodejs",
+    "selenium"
+  ],
+  "author": "vicdum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vicdum/AtilimTimetable/issues"
+  },
+  "homepage": "https://github.com/vicdum/AtilimTimetable#readme"
+}
