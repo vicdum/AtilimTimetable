@@ -5,12 +5,16 @@ let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" style="position:absolu
 
 (async function main() {
     await getTable("MATH152- 01");
-    await getTable("CMPE323- 01");
-    await getTable("CMPE325- 03");
-    await getTable("CMPE331- 02");
-    await getTable("CMPE341- 01");
-    await getTable("CMPE341 LAB- 04");
-    await getTable("ENG301- 02");
+    await getTable("ENG302- 02");
+    await getTable("CMPE326- 01");
+    await getTable("CMPE334- 02");
+    await getTable("CMPE334 LAB- 04");
+    await getTable("SE346- 03");
+    await getTable("SE346 LAB- 01");
+    await getTable("MATH380- 01");
+    await getTable("CMPE493- 01");
+    await getTable("ISE424- 01");
+
     await printTable();
 })();
 
@@ -21,7 +25,7 @@ async function getTable(dersisim) {
     let driver = await new Builder().forBrowser(Browser.FIREFOX).build();
 
     try {
-        await driver.get('https://atilimengr.edupage.org/timetable/view.php?num=29');
+        await driver.get('https://atilim.edupage.org/timetable/view.php?num=4');
         
         await driver.wait(until.elementLocated(By.xpath("//span[contains(text(), 'Dersler')]")), 3000);
         const dersler = await driver.findElement(By.xpath("//span[contains(text(), 'Dersler')]"));
@@ -59,7 +63,7 @@ async function getTable(dersisim) {
                 rectTitle = await rectTitle.replaceAll("</title>"," ");
                 rectTitle = await rectTitle.split("\n");
 
-                dersy.push(dersgun, derssaati, dersAdi, rectTitle[2]);
+                dersy.push(dersgun, derssaati, dersisim, rectTitle[2]);
 
             }
         }
