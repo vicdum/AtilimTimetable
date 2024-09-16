@@ -17,4 +17,5 @@ Combine lecture hours and classes on EduPage into a single document using NodeJS
 
 ![image](https://github.com/vicdum/AtilimTimetable/assets/33635097/cc4f1d11-78d3-4d4c-b0ab-003d0d7f6203)
 
-![image](https://github.com/vicdum/AtilimTimetable/assets/33635097/bbd236db-f1aa-4c93-a63f-195fd9b0fdcf)
+![image](https://github.com/user-attachments/assets/064788a8-9c62-40eb-886f-b86b60e589fc)
+
