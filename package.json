@@ -1,12 +1,12 @@
 {
   "dependencies": {
+    "js-yaml": "^4.1.0",
     "selenium-webdriver": "^4.11.1"
   },
   "name": "atilimtimetable",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Combine lecture hours and classes on EduPage into a single document using NodeJS and Selenium for Atılım University.",
   "main": "app.js",
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
