@@ -10,9 +10,8 @@ Combine lecture hours and classes on EduPage into a single document using NodeJS
 - Download the files and extract them to a folder.
 - Open the folder in console.
 - Run `npm i -y` from console.
-- You can add or remove course codes from the main function in app.js. Simply delete it to reduce
-  it and add a new `await getTable("<LESSON CODE>");` line to add new ones.
-- By running the `node app.js` command from the console, you will get the timetable output named "output.svg" in a few minutes.
+- You can add or remove course codes from the `lectures.yml` file. Simply delete a course code to remove it, or add a new line with the format `- <LESSON CODE>` to include new ones.
+- By running the `node app.js` command from the console, you will get the timetable output named "output.svg" in a few seconds.
 
 ## Images
 
